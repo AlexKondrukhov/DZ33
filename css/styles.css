@@ -634,23 +634,25 @@
     margin-bottom: 16px;
     border-radius: 5px;
 }
-
-.subscribe__button {
+.subscribe__btn {
     display: flex;
     align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    font-size: 18px;
-    font-weight: 700;
-    width: 218px;
-    min-height: 82px;
-    border-radius: 5px;
+    flex: 0 1 218px;
+    min-height: 78px;
+    padding: 0;
+    padding-right: 22px;
+    padding-left: 68px;
     border: none;
+    color: #FFFFFF;
     background-color: #FF2D2D;
+    margin-top: 44px;
+    margin-left: 18px;
+    margin-bottom: 16px;
+    border-radius: 5px;
     text-transform: uppercase;
-    margin-left: 20px;
-    margin-top: 56px;
+    cursor: pointer;
 }
+
 
 .subscribe__button:hover {
     color: #ffffff;
